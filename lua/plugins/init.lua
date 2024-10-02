@@ -24,4 +24,9 @@ return {
   		},
   	},
   },
+  {
+    "NvChad/nvcommunity",
+    { import = "nvcommunity.git.diffview" },
+    { import = "nvcommunity.git.neogit" },
+  },
 }
