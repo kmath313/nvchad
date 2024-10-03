@@ -27,6 +27,11 @@ return {
   { "nvchad/volt" , lazy = true },
   { "nvchad/menu" , lazy = true },
   {
+    "NvChad/nvcommunity",
+    { import = "nvcommunity.tools.telescope-fzf-native" },
+    { import = "nvcommunity.diagnostics.trouble" },
+  },
+  {
     "NeogitOrg/neogit",
     lazy = false,
     dependencies = {
