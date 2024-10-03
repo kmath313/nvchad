@@ -14,6 +14,12 @@ M.base46 = {
 	-- 	Comment = { italic = true },
 	-- 	["@comment"] = { italic = true },
 	-- },
+},
+
+M.ui = {
+	nvdash = {
+		load_on_startup = true,
+	},
 }
 
 return M
