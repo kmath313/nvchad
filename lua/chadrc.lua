@@ -16,10 +16,8 @@ M = {
 		-- 	["@comment"] = { italic = true },
 		-- },
 	},
-	ui = {
-		nvdash = {
-			load_on_startup = true,
-		},
+	nvdash = {
+		load_on_startup = true,
 	},
 }
 
