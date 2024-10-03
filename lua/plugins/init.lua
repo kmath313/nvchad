@@ -24,9 +24,20 @@ return {
   		},
   	},
   },
+  -- {
+  --   "NvChad/nvcommunity",
+  --   { import = "nvcommunity.git.diffview" },
+  --   { import = "nvcommunity.git.neogit" },
+  -- },
   {
-    "NvChad/nvcommunity",
-    { import = "nvcommunity.git.diffview" },
-    { import = "nvcommunity.git.neogit" },
+    "NeogitOrg/neogit",
+    dependencies = {
+      "nvim-lua/plenary.nvim",         -- required
+      "sindrets/diffview.nvim",        -- optional - Diff integration
+  
+      -- Only one of these is needed.
+      "nvim-telescope/telescope.nvim", -- optional
+    },
+    config = true
   },
 }
