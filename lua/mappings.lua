@@ -6,7 +6,7 @@ local map = vim.keymap.set
 
 map("n", ";", ":", { desc = "CMD enter command mode" })
 map("i", "jk", "<ESC>")
-map("n", "gg", ":Neogit<CR>", { desc = "Neogit" })
+map("n", "gg", "<CMD>Neogit<CR>", { desc = "Neogit" })
 map("n", "<RightMouse>", function()
   vim.cmd.exec '"normal! \\<RightMouse>"'
 
