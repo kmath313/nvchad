@@ -4,6 +4,7 @@ local options = {
     go = { "goimports", "gofumpt" },
     nix = { "alejandra" },
     yaml = { "yamlfix", "yamlfmt" },
+    fish = { "fish_indent" },
     -- css = { "prettier" },
     -- html = { "prettier" },
   },
