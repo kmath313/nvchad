@@ -5,6 +5,7 @@ local options = {
     nix = { "alejandra" },
     yaml = { "yamlfix", "yamlfmt" },
     fish = { "fish_indent" },
+    json = { "prettierd" },
     -- css = { "prettier" },
     -- html = { "prettier" },
   },
